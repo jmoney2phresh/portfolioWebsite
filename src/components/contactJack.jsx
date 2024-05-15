@@ -3,7 +3,7 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div>
-      <h3 className="text-3xl py-4">About Me</h3>
+      <h3 className="text-3xl py-4">Reach Out</h3>
       <hr className="w-[50%] h-0.5 bg-white" />
       <form onSubmit={handleSubmit}>
         <input

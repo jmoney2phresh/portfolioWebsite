@@ -3,6 +3,7 @@ import MultiLayerParallax from "./parallaxScroll";
 import ProjectSection from "./projects";
 import SkillSection from "./skills";
 import AboutJack from "./aboutJack";
+import Experience from "./experience";
 {
   /* import ContactForm from "./contactJack";*/
 }
@@ -88,15 +89,15 @@ const HomePage = () => {
       <div ref={aboutRef} className="bg-white text-prussian">
         <AboutJack />
       </div>
+      <div ref={experienceRef} className="bg-white text-prussian">
+        <Experience />
+      </div>
       <div ref={projectsRef} className="bg-prussian text-white">
         <ProjectSection />
       </div>
       {/* Other sections */}
       <div ref={skillsRef} className="bg-prussian text-white">
         <SkillSection />
-      </div>
-      <div ref={experienceRef} className="bg-white text-prussian">
-        <h3>Experience</h3>
       </div>
 
       <div ref={contactRef} className="bg-white text-prussian">

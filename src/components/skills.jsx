@@ -10,7 +10,7 @@ const SkillSection = () => {
         </div>
       </div>
       <div className="skillList gridContainer grid grid-cols-2 grid-rows-2 bg-prussian relative">
-        <div className="frontEnd grid-item relative flex flex-col justify-evenly p-6 px-10 text-right border border-r-1 border-t-0 border-l-0 border-b-1 border-white">
+        <div className="frontEnd grid-item relative flex flex-col justify-evenly p-6 px-10 text-right border border-r-1 border-t-0 border-l-0 border-b-1 border-[rgba(24, 49, 79, 0.6)]">
           <h3 className="absolute text-3xl left-6 top-1/2 transform -translate-y-1/2 text-center">
             Front End
           </h3>
@@ -35,7 +35,7 @@ const SkillSection = () => {
             <br />
           </div>
         </div>
-        <div className="personal grid-item relative flex flex-col justify-evenly p-6 px-10 text-left border border-r-0 border-t-0 border-l-1 border-b-1 border-white">
+        <div className="personal grid-item relative flex flex-col justify-evenly p-6 px-10 text-left border border-r-0 border-t-0 border-l-1 border-b-1 border-[rgba(24, 49, 79, 0.6)]">
           <h3 className="absolute text-3xl right-6 top-1/2 transform -translate-y-1/2 text-center">
             Personal
           </h3>
@@ -60,7 +60,7 @@ const SkillSection = () => {
             <br />
           </div>
         </div>
-        <div className="backEnd grid-item relative flex flex-col justify-evenly p-6 px-10 text-right border border-r-1 border-t-1 border-l-0 border-b-0 border-white">
+        <div className="backEnd grid-item relative flex flex-col justify-evenly p-6 px-10 text-right border border-r-1 border-t-1 border-l-0 border-b-0 border-[rgba(24, 49, 79, 0.6)]">
           <h3 className="absolute text-3xl left-6 top-1/2 transform -translate-y-1/2 text-center">
             Back End
           </h3>
@@ -85,7 +85,7 @@ const SkillSection = () => {
             <br />
           </div>
         </div>
-        <div className="design grid-item relative flex flex-col justify-evenly p-6 px-10 text-left border border-r-0 border-t-1 border-l-1 border-b-0 border-white">
+        <div className="design grid-item relative flex flex-col justify-evenly p-6 px-10 text-left border border-r-0 border-t-1 border-l-1 border-b-0 border-[rgba(24, 49, 79, 0.6)]">
           <h3 className="absolute text-3xl right-6 top-1/2 transform -translate-y-1/2 text-center">
             Design
           </h3>
