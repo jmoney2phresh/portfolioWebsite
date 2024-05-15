@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "opensans";
+  src: url("../../public/assets/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../../public/assets/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: "opensans";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "poppins";
+}
