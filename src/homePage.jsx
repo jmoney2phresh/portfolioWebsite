@@ -5,9 +5,8 @@ import ProjectSection from "./projects";
 import SkillSection from "./skills";
 import AboutJack from "./aboutJack";
 import Experience from "./experience";
-{
-  /* import ContactForm from "./contactJack";*/
-}
+import ContactForm from "./contactJack";
+import Footer from "./footer.jsx";
 import "./style.css";
 import "./fonts.style.css";
 
@@ -98,16 +97,18 @@ const HomePage = () => {
       <div ref={experienceRef} className="bg-white text-prussian">
         <Experience />
       </div>
-      <div ref={projectsRef} className="bg-prussian text-white">
+      <div ref={projectsRef} className="">
         <ProjectSection />
       </div>
       {/* Other sections */}
       <div ref={skillsRef} className="bg-prussian text-white">
         <SkillSection />
       </div>
-
       <div ref={contactRef} className="bg-white text-prussian">
-        Contact form placeholder
+        <ContactForm />
+      </div>
+      <div className="bg-white text-prussian">
+        <Footer />
       </div>
     </div>
   );

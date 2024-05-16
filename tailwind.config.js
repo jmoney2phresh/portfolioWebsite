@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         prussian: "#18314F",
+        cambridge: "#8BBEB2",
       },
     },
   },

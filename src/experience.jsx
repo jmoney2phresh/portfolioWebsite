@@ -9,8 +9,8 @@ const Experience = () => {
           <h2 className="text-3xl text-center p-8">Key Experience</h2>
         </div>
       </div>
-      <div className="skillList gridContainer grid grid-cols-2 grid-rows-2 relative px-4">
-        <div className="grid-item relative flex flex-col justify-evenly items-end p-6 px-10 text-right text-prussian border border-r-1 border-t-0 border-l-0 border-b-1 border-[rgba(24, 49, 79, 0.6)]">
+      <div className="skillList gridContainer grid grid-cols-2 grid-rows-2 relative px-20">
+        <div className="grid-item relative flex flex-col justify-evenly items-end p-6 px-10 text-right text-white border border-r-1 border-t-0 border-l-0 border-b-1 border-[rgba(24, 49, 79, 0.6)]">
           <div className="imgContainer w-[300px] h-[250px] my-2 overflow-hidden flex flex-col justify-center hover:scale-105 hover:cursor-pointer">
             <a href="https://www.ucl.ac.uk">
               <img
@@ -24,8 +24,8 @@ const Experience = () => {
           <h5>MSci Biological Sciences</h5>
           <h5>2011-2015</h5>
         </div>
-        <div className="grid-item relative flex flex-col justify-evenly items-start p-6 px-10 text-left text-prussian border border-r-0 border-t-0 border-l-1 border-b-1 border-[rgba(24, 49, 79, 0.6)]">
-          <div className="imgContainer w-[300px] max-h-[250px] my-2 overflow-hidden flex flex-col justify-center hover:scale-105 hover:cursor-pointer">
+        <div className="grid-item relative flex flex-col justify-evenly items-start p-6 px-10 text-left text-white border border-r-0 border-t-0 border-l-1 border-b-1 border-[rgba(24, 49, 79, 0.6)]">
+          <div className="imgContainer w-[300px] h-[250px] my-2 overflow-hidden flex flex-col justify-center hover:scale-105 hover:cursor-pointer">
             <a href="https://www.gov.uk/government/organisations/civil-service">
               <img
                 className="object-cover justify-self-center self-center "
@@ -67,7 +67,7 @@ const Experience = () => {
           <h5>2023-</h5>
         </div>
       </div>
-      <div className="buffer min-h-[150px] bg-gradient-to-t from-prussian to-transparent"></div>
+      <div className="buffer min-h-[150px]"></div>
     </div>
   );
 };
