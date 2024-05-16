@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./style.css";
+import "./fonts.style.css";
 
 const ProjectSection = () => {
   return (
@@ -10,7 +10,7 @@ const ProjectSection = () => {
           <a href="https://www.heartandseoulfoodco.com">
             <img
               className="w-full h-full object-cover hover:scale-105 hover:cursor-pointer transition-transform duration-300"
-              src="../public/assets/heartandseoul.png"
+              src="/assets/heartandseoul.png"
               alt="Image 1"
             />
           </a>
@@ -18,21 +18,21 @@ const ProjectSection = () => {
         <div className="grid-item relative hover:cursor-pointer">
           <img
             className="w-full h-full object-cover hover:scale-105 hover:cursor-pointer transition-transform duration-300"
-            src="../public/assets/pantry.png"
+            src="/assets/pantry.png"
             alt="Image 2"
           />
         </div>
         <div className="grid-item relative hover:cursor-pointer">
           <img
             className="w-full h-full object-cover hover:scale-105 hover:cursor-pointer transition-transform duration-300"
-            src="../public/assets/placeholderImage.png"
+            src="/assets/placeholderImage.png"
             alt="Image 3"
           />
         </div>
         <div className="grid-item relative hover:cursor-pointer">
           <img
             className="w-full h-full object-cover hover:scale-105 hover:cursor-pointertransition-transform duration-300"
-            src="../public/assets/placeholderImage.png"
+            src="/assets/placeholderImage.png"
             alt="Image 4"
           />
         </div>

@@ -1,11 +1,11 @@
 @font-face {
   font-family: "opensans";
-  src: url("../../public/assets/OpenSans-VariableFont_wdth\,wght.ttf");
+  src: url("/assets/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
 @font-face {
   font-family: "poppins";
-  src: url("../../public/assets/Poppins-Regular.ttf");
+  src: url("/assets/Poppins-Regular.ttf");
 }
 
 * {

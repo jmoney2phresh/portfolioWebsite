@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { useInView } from "react-intersection-observer";
 import MultiLayerParallax from "./parallaxScroll";
 import ProjectSection from "./projects";
 import SkillSection from "./skills";
@@ -8,6 +9,7 @@ import Experience from "./experience";
   /* import ContactForm from "./contactJack";*/
 }
 import "./style.css";
+import "./fonts.style.css";
 
 const HomePage = () => {
   const projectsRef = useRef(null);
@@ -16,13 +18,17 @@ const HomePage = () => {
   const aboutRef = useRef(null);
   const contactRef = useRef(null);
 
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  });
+
   return (
     <div className="relative">
       {/* MultiLayerParallax component */}
       <div className="relative">
         <MultiLayerParallax />
         {/* Menu */}
-        <div className="menu position-sticky position-[-webkit-sticky] bg-gradient-to-t from-[rgba(24,49,79,0.6)] to-transparent text-white flex flex-col items-center pt-20 pb-12 px-6 absolute bottom-0 left-0 w-full z-50">
+        <div className="menu position-sticky position-[-webkit-sticky] bg-gradient-to-t from-[rgba(24,49,79,0.6)] to-transparent text-white flex flex-col items-center pt-20 pb-12 px-6 absolute bottom-0 left-0 w-full z-50 ">
           <h3 className="font-bold p-3">Jump to...</h3>
           <ul className="list-none flex flex-wrap justify-center gap-20">
             <li>

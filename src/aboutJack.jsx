@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./fonts.style.css";
 
 const AboutJack = () => {
   return (
@@ -35,11 +35,7 @@ const AboutJack = () => {
           <br />
           Thanks,
         </p>
-        <img
-          src="../../public/assets/signature.png"
-          className="w-[300px]"
-          alt=""
-        />
+        <img src="/assets/signature.png" className="w-[300px]" alt="" />
       </div>
     </div>
   );
