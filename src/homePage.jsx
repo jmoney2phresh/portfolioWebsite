@@ -101,7 +101,10 @@ const HomePage = () => {
         <ProjectSection />
       </div>
       {/* Other sections */}
-      <div ref={skillsRef} className="bg-prussian text-white">
+      <div
+        ref={skillsRef}
+        className="bg-prussian text-white flex justify-center"
+      >
         <SkillSection />
       </div>
       <div ref={contactRef} className="bg-white text-prussian">

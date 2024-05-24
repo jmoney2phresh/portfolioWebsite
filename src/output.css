@@ -558,33 +558,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 800px) {
   .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
+    max-width: 800px;
   }
 }
 
@@ -612,12 +588,20 @@ video {
   left: 0px;
 }
 
+.left-1\/4 {
+  left: 25%;
+}
+
 .right-0 {
   right: 0px;
 }
 
 .top-0 {
   top: 0px;
+}
+
+.top-1\/4 {
+  top: 25%;
 }
 
 .z-0 {
@@ -673,12 +657,24 @@ video {
   height: 0.125rem;
 }
 
+.h-3\/4 {
+  height: 75%;
+}
+
 .h-\[200px\] {
   height: 200px;
 }
 
 .h-\[250px\] {
   height: 250px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[50\%\] {
+  height: 50%;
 }
 
 .h-full {
@@ -689,20 +685,24 @@ video {
   height: 100vh;
 }
 
-.max-h-\[250px\] {
-  max-height: 250px;
+.max-h-\[100vh\] {
+  max-height: 100vh;
 }
 
 .min-h-10 {
   min-height: 2.5rem;
 }
 
-.min-h-\[1000px\] {
-  min-height: 1000px;
-}
-
 .min-h-\[150px\] {
   min-height: 150px;
+}
+
+.min-h-\[700px\] {
+  min-height: 700px;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-\[300px\] {
@@ -785,6 +785,10 @@ video {
   gap: 5rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-\[12px\] {
   gap: 12px;
 }
@@ -852,6 +856,27 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-mindaro {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 249 175 / var(--tw-bg-opacity));
+}
+
+.bg-\[rgba\(255\2c 255\2c 255\2c 0\.8\)\] {
+  background-color: rgba(255,255,255,0.8);
+}
+
+.bg-\[rgba\(255\2c 255\2c 255\2c 0\.6\)\] {
+  background-color: rgba(255,255,255,0.6);
+}
+
+.bg-\[rgba\(255\2c 255\2c 255\2c 0\.5\)\] {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.bg-\[rgba\(255\2c 255\2c 255\2c 0\.4\)\] {
+  background-color: rgba(255,255,255,0.4);
+}
+
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -913,6 +938,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -938,26 +968,12 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .pb-12 {
   padding-bottom: 3rem;
 }
 
 .pb-5 {
   padding-bottom: 1.25rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .pl-4 {
@@ -970,6 +986,10 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
@@ -1009,13 +1029,13 @@ video {
   line-height: 1rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.text-cambridge {
+  --tw-text-opacity: 1;
+  color: rgb(139 190 178 / var(--tw-text-opacity));
 }
 
 .text-prussian {
@@ -1033,9 +1053,26 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-cambridge {
-  --tw-text-opacity: 1;
-  color: rgb(139 190 178 / var(--tw-text-opacity));
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .transition-transform {
@@ -1048,6 +1085,10 @@ video {
   transition-duration: 300ms;
 }
 
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -1058,14 +1099,6 @@ video {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
+.hover\:opacity-10:hover {
+  opacity: 0.1;
 }

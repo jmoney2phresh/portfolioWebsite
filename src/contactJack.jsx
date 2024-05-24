@@ -35,7 +35,7 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="buffer min-w-[100%] min-h-[1000px] bg-gradient-to-t from-transparent to-prussian flex flex-col justify-center items-center text-white">
+      <div className="buffer min-w-[100%] min-h-[700px] bg-gradient-to-t from-transparent to-prussian flex flex-col justify-center items-center text-white">
         <h3 className="text-3xl py-4">Reach Out</h3>
         <hr className="w-[50%] h-0.5 bg-white mb-5" />
         <form
