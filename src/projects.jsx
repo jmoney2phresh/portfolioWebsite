@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./fonts.style.css";
 
 const ProjectSection = () => {
   return (
     <div className="projects bg-gradient-to-t from-prussian to-transparent text-prussian relative z-0">
-      <div className="gridContainer max-h-[100vh] grid grid-cols-2 grid-rows-2 gap-1 p-2 relative overflow-hidden">
+      <div className="gridContainer max-h-[100vh] grid grid-cols-1 sm:grid-cols-2 grid-rows-4 sm:grid-rows-2 gap-1 p-2 relative overflow-hidden">
         {/* Grid items */}
         <div className="grid-item relative hover:cursor-pointer">
           <a href="https://www.heartandseoulfoodco.com">
