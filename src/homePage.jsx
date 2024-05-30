@@ -27,9 +27,9 @@ const HomePage = () => {
       <div className="relative">
         <MultiLayerParallax />
         {/* Menu */}
-        <div className="menu position-sticky position-[-webkit-sticky] bg-gradient-to-t from-[rgba(24,49,79,0.6)] to-transparent text-white flex flex-col items-center pt-20 pb-12 px-6 absolute bottom-0 left-0 w-full z-50 ">
-          <h3 className="font-bold p-3">Jump to...</h3>
-          <ul className="list-none flex flex-wrap justify-center gap-20">
+        <div className="menu position-sticky position-[-webkit-sticky] absolute bottom-0 left-0 z-50 flex w-full flex-col items-center bg-gradient-to-t from-[rgba(24,49,79,0.6)] to-transparent px-6 pb-12 pt-20 text-white">
+          <h3 className="p-3 font-bold">Jump to...</h3>
+          <ul className="flex list-none flex-wrap justify-center gap-20">
             <li>
               <button
                 onClick={() =>
@@ -101,10 +101,7 @@ const HomePage = () => {
         <ProjectSection />
       </div>
       {/* Other sections */}
-      <div
-        ref={skillsRef}
-        className="bg-prussian text-white flex justify-center"
-      >
+      <div ref={skillsRef}>
         <SkillSection />
       </div>
       <div ref={contactRef} className="bg-white text-prussian">

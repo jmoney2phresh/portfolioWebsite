@@ -3,13 +3,13 @@ import "./fonts.style.css";
 
 const ProjectSection = () => {
   return (
-    <div className="projects bg-gradient-to-t from-prussian to-transparent text-prussian relative z-0">
-      <div className="gridContainer max-h-[100vh] grid grid-cols-1 sm:grid-cols-2 grid-rows-4 sm:grid-rows-2 gap-1 p-2 relative overflow-hidden">
+    <div className="projects relative z-0 bg-gradient-to-t from-prussian to-transparent text-prussian">
+      <div className="gridContainer relative grid max-h-[100vh] grid-cols-1 grid-rows-4 gap-1 overflow-hidden p-2 sm:grid-cols-2 sm:grid-rows-2">
         {/* Grid items */}
         <div className="grid-item relative hover:cursor-pointer">
           <a href="https://www.heartandseoulfoodco.com">
             <img
-              className="w-full h-full object-cover hover:scale-105 hover:cursor-pointer transition-transform duration-300"
+              className="h-full w-full object-cover transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
               src="/assets/heartandseoul.png"
               alt="Image 1"
             />
@@ -18,16 +18,16 @@ const ProjectSection = () => {
         <div className="grid-item relative hover:cursor-pointer">
           <a href="https://glittering-tulumba-c76ddb.netlify.app/">
             <img
-              className="w-full h-full object-cover hover:scale-105 hover:cursor-pointer transition-transform duration-300"
+              className="h-full w-full object-cover transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
               src="/assets/pantry.png"
               alt="Image 2"
             />
           </a>
         </div>
-        <div className="grid-item relative hover:cursor-pointer bg-[rgba(255,255,255,0.4)]">
+        <div className="grid-item relative bg-[rgba(255,255,255,0.4)] hover:cursor-pointer">
           <a href="https://github.com/jmoney2phresh">
             <img
-              className="w-full h-full object-contain hover:scale-105 hover:cursor-pointer transition-transform duration-300"
+              className="h-full w-full object-contain transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
               src="/assets/github.png"
               alt="Image 3"
             />
@@ -36,19 +36,19 @@ const ProjectSection = () => {
         <div className="grid-item relative hover:cursor-pointer">
           <a href="https://www.jacktakessnaps.com">
             <img
-              className="w-full h-full object-cover hover:scale-105 hover:cursor-pointer transition-transform duration-300"
+              className="h-full w-full object-cover transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
               src="/assets/jacktakessnaps.png"
               alt="Image 4"
             />
           </a>
         </div>
-        <div className="overlayText absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-white font-24px font-bold text-center z-10 pointer-events-none">
+        <div className="overlayText font-24px pointer-events-none absolute bottom-0 left-0 right-0 top-0 z-10 flex items-center justify-center text-center font-bold text-white">
           <div className="opaqueBox bg-[rgba(24,49,79,0.8)] p-8">
             <h3 className="text-3xl">Sample Projects</h3>
           </div>
         </div>
       </div>
-      <div className="h-[200px] flex justify-center"></div>
+      <div className="flex h-[200px] justify-center md:hidden"></div>
     </div>
   );
 };
