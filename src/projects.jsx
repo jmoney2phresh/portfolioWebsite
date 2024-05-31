@@ -3,7 +3,10 @@ import "./fonts.style.css";
 
 const ProjectSection = () => {
   return (
-    <div className="projects relative z-0 bg-gradient-to-t from-prussian to-transparent text-prussian">
+    <div
+      className="projects relative z-0 bg-gradient-to-t from-prussian to-transparent text-prussian"
+      aria-label="Sample projects"
+    >
       <div className="gridContainer relative grid max-h-[100vh] grid-cols-1 grid-rows-4 gap-1 overflow-hidden p-2 sm:grid-cols-2 sm:grid-rows-2">
         {/* Grid items */}
         <div className="grid-item relative hover:cursor-pointer">

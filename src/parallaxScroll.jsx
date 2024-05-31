@@ -33,6 +33,8 @@ export default function MultiLayerParallax() {
           backgroundSize: "cover",
           y: backgroundY,
         }}
+        role="img"
+        aria-label="New York Skyline background"
       ></motion.div>
       <motion.div
         className="absolute inset-0 z-20"
@@ -41,6 +43,8 @@ export default function MultiLayerParallax() {
           backgroundPosition: "bottom",
           backgroundSize: "cover",
         }}
+        role="img"
+        aria-label="New York Skyline background"
       ></motion.div>
     </div>
   );

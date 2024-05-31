@@ -12,7 +12,10 @@ const SkillSection = () => {
   };
 
   return (
-    <div className="container flex min-w-[100%] flex-col items-center justify-center bg-prussian px-4 text-white sm:px-0">
+    <div
+      className="container flex min-w-[100%] flex-col items-center justify-center bg-prussian px-4 text-white sm:px-0"
+      aria-label="Key Skills"
+    >
       <div className="headerContainer flex flex-col items-center justify-center py-16 text-center">
         <h2 className="header text-center text-3xl text-white">Key Skills</h2>
         <br />

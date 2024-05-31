@@ -34,7 +34,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div
+      className="flex flex-col items-center justify-center"
+      aria-label="Contact Form"
+    >
       <div className="buffer flex min-h-[700px] min-w-[100%] flex-col items-center justify-center bg-gradient-to-t from-transparent to-prussian text-white">
         <h3 className="py-4 text-3xl">Reach Out</h3>
         <hr className="mb-5 h-0.5 w-[50%] bg-white" />
@@ -56,6 +59,8 @@ const ContactForm = () => {
             onChange={(e) => setEmail(e.target.value)}
             required
             className="h-[40px] bg-[rgba(255,255,255,0.9)] text-center"
+            aria-label="Email input field"
+            aria-required="true"
           />
           <label htmlFor="name" className="hidden">
             Name Field
@@ -68,6 +73,8 @@ const ContactForm = () => {
             onChange={(e) => setName(e.target.value)}
             required
             className="h-[40px] bg-[rgba(255,255,255,0.9)] text-center"
+            aria-label="Name input field"
+            aria-required="true"
           />
           <label htmlFor="query" className="hidden">
             Enter a query
@@ -80,6 +87,8 @@ const ContactForm = () => {
             required
             minLength={50}
             className="min-h-[80px] w-[300px] bg-[rgba(255,255,255,0.9)] text-center"
+            aria-label="Query input field"
+            aria-required="true"
           />
           {errorMessage && <span className="text-red-600">{errorMessage}</span>}
           <input

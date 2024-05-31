@@ -3,7 +3,10 @@ import "./fonts.style.css";
 
 const Experience = () => {
   return (
-    <div className="experienceSection bg-gradient-to-t from-transparent to-prussian">
+    <div
+      className="experienceSection bg-gradient-to-t from-transparent to-prussian"
+      aria-label="Key experience"
+    >
       <div className="header">
         <div className="opaqueBox text-white">
           <h2 className="p-8 text-center text-3xl">Key Experience</h2>
