@@ -34,10 +34,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="buffer min-w-[100%] min-h-[700px] bg-gradient-to-t from-transparent to-prussian flex flex-col justify-center items-center text-white">
-        <h3 className="text-3xl py-4">Reach Out</h3>
-        <hr className="w-[50%] h-0.5 bg-white mb-5" />
+    <div className="flex flex-col items-center justify-center">
+      <div className="buffer flex min-h-[700px] min-w-[100%] flex-col items-center justify-center bg-gradient-to-t from-transparent to-prussian text-white">
+        <h3 className="py-4 text-3xl">Reach Out</h3>
+        <hr className="mb-5 h-0.5 w-[50%] bg-white" />
         <form
           onSubmit={handleSubmit}
           name="contact"
@@ -52,7 +52,7 @@ const ContactForm = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="border border-prussian border-solid text-center"
+            className="h-[40px] bg-[rgba(255,255,255,0.9)] text-center"
           />
           <input
             type="text"
@@ -61,22 +61,22 @@ const ContactForm = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            className="border border-prussian border-solid text-center"
+            className="h-[40px] bg-[rgba(255,255,255,0.9)] text-center"
           />
           <textarea
             name="query"
-            placeholder="Enter your query (at least 50 characters)"
+            placeholder="Enter your query &#10; (at least 50 characters)"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             required
             minLength={50}
-            className="min-h-10 border border-prussian border-solid text-center" // Tailwind class for minimum height
+            className="min-h-[80px] w-[300px] bg-[rgba(255,255,255,0.9)] text-center"
           />
           {errorMessage && <span className="text-red-600">{errorMessage}</span>}
           <input
             type="submit"
             value="Submit"
-            className="hover:cursor-pointer bg-prussian"
+            className="h-[40px] bg-prussian hover:cursor-pointer"
           />
         </form>
       </div>
