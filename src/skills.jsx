@@ -66,7 +66,7 @@ const SkillSection = () => {
                               ).style.opacity = "0")
                             }
                             src="./assets/html.png"
-                            alt=""
+                            alt="HTML5 logo"
                           />
                           <div className="skillText1 pointer-events-none absolute left-1/4 top-1/4 z-10 flex h-[50%] w-[50%] flex-col items-center justify-center text-center text-white opacity-0">
                             <h4 className="font-bold">HTML5</h4>
@@ -91,7 +91,7 @@ const SkillSection = () => {
                               ).style.opacity = "0")
                             }
                             src="./assets/css.png"
-                            alt=""
+                            alt="CSS logo"
                           />
                           <div className="skillText2 pointer-events-none absolute left-1/4 top-1/4 z-10 flex h-[50%] w-[50%] flex-col items-center justify-center text-center text-white opacity-0">
                             <h4 className="font-bold">CSS</h4>
@@ -117,7 +117,7 @@ const SkillSection = () => {
                               ).style.opacity = "0")
                             }
                             src="./assets/js.png"
-                            alt=""
+                            alt="Javascript logo"
                           />
                           <div className="skillText3 pointer-events-none absolute left-1/4 top-1/4 z-10 flex h-[50%] w-[50%] flex-col items-center justify-center text-center text-white opacity-0">
                             <h4 className="font-bold">Javascript</h4>
@@ -248,7 +248,7 @@ const SkillSection = () => {
                               ).style.opacity = "0")
                             }
                             src="./assets/python.png"
-                            alt=""
+                            alt="python logo"
                           />
                           <div className="skillText1 pointer-events-none absolute left-1/4 top-1/4 z-10 flex h-[50%] w-[50%] flex-col items-center justify-center text-center text-white opacity-0">
                             <h4 className="font-bold">python</h4>
@@ -275,7 +275,7 @@ const SkillSection = () => {
                               ).style.opacity = "0")
                             }
                             src="./assets/sql.png"
-                            alt=""
+                            alt="sql logo"
                           />
                           <div className="skillText2 pointer-events-none absolute left-1/4 top-1/4 z-10 flex h-[50%] w-[50%] flex-col items-center justify-center text-center text-white opacity-0">
                             <h4 className="font-bold">
@@ -341,7 +341,7 @@ const SkillSection = () => {
                               ).style.opacity = "0")
                             }
                             src="./assets/adobe.png"
-                            alt=""
+                            alt="adobe logo"
                           />
                           <div className="skillText1 pointer-events-none absolute left-1/4 top-1/4 z-10 flex h-[50%] w-[50%] flex-col items-center justify-center text-center text-white opacity-0">
                             <h4 className="font-bold">

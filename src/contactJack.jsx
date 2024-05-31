@@ -45,6 +45,9 @@ const ContactForm = () => {
           className="flex flex-col justify-center gap-[12px]"
         >
           <input type="hidden" name="form-name" value="contact" />
+          <label htmlFor="email" className="hidden">
+            Email Field
+          </label>
           <input
             type="email"
             name="email"
@@ -54,6 +57,9 @@ const ContactForm = () => {
             required
             className="h-[40px] bg-[rgba(255,255,255,0.9)] text-center"
           />
+          <label htmlFor="name" className="hidden">
+            Name Field
+          </label>
           <input
             type="text"
             name="name"
@@ -63,6 +69,9 @@ const ContactForm = () => {
             required
             className="h-[40px] bg-[rgba(255,255,255,0.9)] text-center"
           />
+          <label htmlFor="query" className="hidden">
+            Enter a query
+          </label>
           <textarea
             name="query"
             placeholder="Enter your query &#10; (at least 50 characters)"

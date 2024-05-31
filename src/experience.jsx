@@ -16,7 +16,7 @@ const Experience = () => {
               <img
                 className="self-center justify-self-center object-cover"
                 src="/assets/ucl.png"
-                alt=""
+                alt="University College London Logo"
               />
             </a>
           </div>
@@ -30,7 +30,7 @@ const Experience = () => {
               <img
                 className="self-center justify-self-center object-cover"
                 src="/assets/civilService.png"
-                alt=""
+                alt="UK Civil Service logo"
               />
             </a>
           </div>
@@ -44,7 +44,7 @@ const Experience = () => {
               <img
                 className="self-center justify-self-center object-contain"
                 src="/assets/lionheart.png"
-                alt=""
+                alt="Lionheart Education logo"
               />
             </a>
           </div>
@@ -58,7 +58,7 @@ const Experience = () => {
               <img
                 className="self-center justify-self-center object-cover"
                 src="/assets/heartandseoullogo.webp"
-                alt=""
+                alt="Heart and Seoul Food Co. sample image"
               />
             </a>
           </div>

@@ -11,7 +11,7 @@ const ProjectSection = () => {
             <img
               className="h-full w-full object-cover transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
               src="/assets/heartandseoul.png"
-              alt="Image 1"
+              alt="link to heart and seoul food co. website"
             />
           </a>
         </div>
@@ -20,7 +20,7 @@ const ProjectSection = () => {
             <img
               className="h-full w-full object-cover transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
               src="/assets/pantry.png"
-              alt="Image 2"
+              alt="link to pantry website"
             />
           </a>
         </div>
@@ -29,7 +29,7 @@ const ProjectSection = () => {
             <img
               className="h-full w-full object-contain transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
               src="/assets/github.png"
-              alt="Image 3"
+              alt="link to github portfolio"
             />
           </a>
         </div>
@@ -38,7 +38,7 @@ const ProjectSection = () => {
             <img
               className="h-full w-full object-cover transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
               src="/assets/jacktakessnaps.png"
-              alt="Image 4"
+              alt="link to jacktakessnaps photography website"
             />
           </a>
         </div>

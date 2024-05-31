@@ -15,13 +15,13 @@ export default function MultiLayerParallax() {
   return (
     <div
       ref={ref}
-      className="w-full h-screen overflow-hidden relative grid place-items-top"
+      className="place-items-top relative grid h-screen w-full overflow-hidden"
     >
       <motion.div style={{ y: textY }} className="z-10 ml-20">
-        <h1 className="font-bold text-white text-5xl md:text-7xl relative pt-20 pb-5">
+        <h1 className="relative pb-5 pt-20 text-5xl font-bold text-white md:text-7xl">
           Jack Symonds
         </h1>
-        <h3 className="font-bold text-white text-3xl md:text-5xl relative">
+        <h3 className="relative text-3xl font-bold text-white md:text-5xl">
           Front-end Developer
         </h3>
       </motion.div>
